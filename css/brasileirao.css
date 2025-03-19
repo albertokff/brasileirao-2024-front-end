@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212 !important;
+    color: #fff;
+}
+.container {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+header {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: white !important;
+}
+.cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card {
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+}
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background: #333;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.navbar button {
+    background: #1e1e1e;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px 5px 0 0;
+    margin: 0 5px;
+}
+.navbar button.active {
+    background: #FF5733;
+}
+/* Estilo das abas */
+.tab-content {
+    display: none;
+    margin-top: 20px;
+}
+.tab-content.active {
+    display: block;
+}
+/* Ajuste para os gráficos lado a lado */
+.charts {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.chart-container {
+    background: #1e1e1e;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+    flex: 1;
+}
+canvas {
+    width: 100% !important;
+    height: 350px !important;
+}
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #444;
+}
+th {
+    background-color: #333;
+}
+/* Busca */
+.search-bars {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.search-bars input {
+    width: 48%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+h3 {
+    color: white !important;
+}
